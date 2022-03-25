@@ -1,0 +1,107 @@
+
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+
+   
+    .box1 {
+
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+
+    }
+
+    #ttp {
+        font-size: 2.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .one {
+        margin-top: 10px;
+        display: inline-block;
+        margin-right: 15px;
+        width: 11%;
+        height: 20px;
+        border-bottom: 2px solid gray;
+    }
+
+    .two {
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 10px;
+        width: 11%;
+        height: 20px;
+        border-bottom: 2px solid gray;
+    }
+
+    .back {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+    }
+
+    #icon {
+        color: red;
+        font-size: 1.2rem;
+        margin-right: 10px;
+        opacity:0.8;
+    }
+
+    .back .p {
+
+        font-size: 1.2rem;
+        opacity: 0.6;
+    }
+.container{
+    filter:blur(6px);
+    -webkit-filter: blur(6px);
+}
+.pop-up{
+    position:absolute;
+    left:40%;
+    top:30%;
+    height:30vh;
+    width:23vw;
+    border:1px solid red;
+    border-radius:10px;
+    color:red;
+    font-size:1.1rem;
+    box-shadow: 2px 2px 4px gray;
+    background: white;
+    padding:20px;
+}
+#addnew 
+  {
+    margin-top:5px;
+     opacity:0.8;
+     font-size:1.1rem;
+}
+.pop-up-bar{
+    margin-top:25px;
+    width:83%;
+    height:4vh;
+    border-radius:5px;
+    border:1px solid red;
+    box-shadow:2px 2px 7px gray;
+    resize:none;
+    text-align: center;
+    outline:none;
+}
+.pop-up-button{
+    width:18%;
+    height:12%;
+    color:white;
+    background: rgba(255, 13, 13, 0.808);
+    border-radius:16px;
+    position:absolute;
+    left:44%;;
+    margin-top:18px;
+    border:none;
+    font-size:1.1rem;
+
+}
